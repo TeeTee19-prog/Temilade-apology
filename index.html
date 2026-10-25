@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#160d20">
+<title>For Temilade ❤️</title>
+<style>
+  :root{--rose:#ff6f91;--pink:#ffb4c7;--cream:#fff3ed;--wine:#4b1737;--glass:rgba(255,255,255,.085)}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;min-height:100vh;overflow-x:hidden;color:var(--cream);font-family:ui-rounded,"Trebuchet MS",system-ui,sans-serif;background:radial-gradient(ellipse at 15% 15%,#542143 0,transparent 35%),radial-gradient(ellipse at 85% 80%,#3c204f 0,transparent 38%),linear-gradient(145deg,#100b19,#211025 55%,#140b1d)}
+  body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.16;background-image:radial-gradient(#fff 0.7px,transparent .7px);background-size:27px 27px;mask-image:linear-gradient(transparent,#000 20%,#000 80%,transparent);z-index:0}
+  .scene{position:fixed;inset:0;pointer-events:none;perspective:900px;overflow:hidden;z-index:0}
+  .heart{position:absolute;bottom:-70px;color:#ff8da8;opacity:0;filter:drop-shadow(0 0 12px #ff5b8d);animation:floatUp linear infinite}
+  @keyframes floatUp{0%{transform:translate3d(0,0,0) rotate(0) scale(.55);opacity:0}12%{opacity:.72}80%{opacity:.55}100%{transform:translate3d(var(--drift),-115vh,0) rotate(35deg) scale(1.2);opacity:0}}
+  .sparkle{position:absolute;width:4px;height:4px;background:#ffe2ea;border-radius:50%;box-shadow:0 0 12px 3px #ff91b4;animation:twinkle 3s ease-in-out infinite}
+  @keyframes twinkle{0%,100%{opacity:.15;transform:scale(.5)}50%{opacity:1;transform:scale(1.5)}}
+  main{position:relative;z-index:1;max-width:980px;margin:auto;padding:26px 20px 70px}
+  .topline{text-align:center;text-transform:uppercase;letter-spacing:.28em;font-size:.72rem;color:#ffc2d1;margin:12px 0 26px;animation:fadeDown 1s both}
+  .hero{text-align:center;padding:20px 0 14px}
+  .eyebrow{display:inline-flex;align-items:center;gap:9px;border:1px solid #ff9db833;background:#ffffff09;border-radius:100px;padding:9px 15px;font-size:.78rem;color:#ffd4df;backdrop-filter:blur(10px)}
+  .eyebrow span{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--rose);box-shadow:0 0 12px var(--rose)}
+  h1{font-family:Georgia,"Times New Roman",serif;font-weight:500;line-height:1.02;font-size:clamp(3.4rem,10vw,7.3rem);letter-spacing:-.055em;margin:23px 0 12px;text-shadow:0 8px 35px #ff709044;animation:titleIn 1.15s cubic-bezier(.2,.8,.2,1) both}
+  h1 em{font-weight:400;color:var(--pink)}
+  .subtitle{font-size:clamp(1rem,2.5vw,1.18rem);color:#e7cad8;line-height:1.8;max-width:560px;margin:0 auto}
+  .stage{height:250px;display:grid;place-items:center;perspective:1000px;margin:8px auto 0;position:relative}
+  .orb{position:absolute;width:190px;height:190px;border-radius:50%;background:radial-gradient(circle at 30% 25%,#ffeff5 0,#ff9db8 10%,#d73f77 34%,#6e245e 62%,#281531 75%);box-shadow:inset -18px -20px 35px #180b28a8,inset 10px 10px 28px #fff8,0 0 65px #fa5e9833;animation:orbFloat 5s ease-in-out infinite;transform-style:preserve-3d}
+  .orb:before,.orb:after{content:"";position:absolute;border:1px solid #ffc1d75c;border-radius:50%;inset:-24px;transform:rotateX(68deg) rotateZ(-22deg)}
+  .orb:after{inset:-42px;transform:rotateX(68deg) rotateZ(44deg);border-color:#ffd1e02c}
+  .orb-heart{position:absolute;font-size:4rem;filter:drop-shadow(0 4px 15px #6b123e);animation:heartBeat 1.8s ease-in-out infinite;transform:translateZ(55px)}
+  @keyframes orbFloat{0%,100%{transform:translateY(3px) rotateY(-12deg) rotateX(7deg)}50%{transform:translateY(-13px) rotateY(15deg) rotateX(-6deg)}}
+  @keyframes heartBeat{0%,100%{transform:translateZ(55px) scale(1)}15%{transform:translateZ(55px) scale(1.13)}30%{transform:translateZ(55px) scale(1)}45%{transform:translateZ(55px) scale(1.08)}}
+  .ring{position:absolute;width:255px;height:82px;border:1px solid #ffb5ce66;border-radius:50%;transform:rotate(-18deg);animation:ringSpin 9s linear infinite}
+  .ring.two{width:285px;height:100px;transform:rotate(48deg);border-color:#e4a8ff3d;animation-direction:reverse;animation-duration:13s}
+  @keyframes ringSpin{from{rotate:0deg}to{rotate:360deg}}
+  .letter{position:relative;max-width:720px;margin:0 auto 28px;padding:clamp(25px,5vw,48px);border:1px solid #ffc0d329;border-radius:28px;background:linear-gradient(135deg,#ffffff12,#ffffff05);box-shadow:0 25px 80px #0004,inset 0 1px #ffffff15;backdrop-filter:blur(18px);transform-style:preserve-3d;transition:transform .2s ease;animation:cardIn 1s .25s both}
+  .letter:before{content:"";position:absolute;inset:0;border-radius:inherit;background:linear-gradient(120deg,#ff8daf10,transparent 40%,#dba4ff0c);pointer-events:none}
+  .letter-top{display:flex;align-items:center;gap:12px;color:#ffb4ca;font-size:.78rem;letter-spacing:.17em;text-transform:uppercase;margin-bottom:22px}
+  .letter-top:after{content:"";height:1px;flex:1;background:linear-gradient(90deg,#ff8daf66,transparent)}
+  .letter h2{font:500 clamp(1.7rem,4vw,2.45rem)/1.2 Georgia,serif;margin:0 0 20px;color:#fff0f4}
+  .letter p{position:relative;color:#ead8e2;font-size:1.02rem;line-height:1.95;margin:0 0 15px}
+  .letter .signature{font:italic 1.35rem Georgia,serif;color:#ffb5ca;margin-top:24px}
+  .actions{text-align:center;padding:15px 0 10px}
+  .question{font:500 clamp(1.7rem,4vw,2.5rem) Georgia,serif;margin:0 0 12px}
+  .actions p{color:#d7bdce;line-height:1.7;margin:0 auto 25px;max-width:500px}
+  .buttons{display:flex;justify-content:center;gap:13px;flex-wrap:wrap}
+  button{font:600 .95rem inherit; font-family:inherit;cursor:pointer;border:0;border-radius:100px;padding:15px 23px;transition:transform .2s,box-shadow .2s,background .2s}
+  button:hover{transform:translateY(-3px)}
+  .yes{color:#351326;background:linear-gradient(135deg,#ffd3df,#ff7ca1);box-shadow:0 10px 30px #ff5d9335}
+  .yes:hover{box-shadow:0 14px 35px #ff5d9366}
+  .soft{color:#f9dce7;background:#ffffff0c;border:1px solid #ffc1d633}
+  .reply{display:none;margin:25px auto 0;max-width:560px;padding:20px 22px;border-radius:18px;background:#ff8dae14;border:1px solid #ffb8cf44;color:#ffe6ee;line-height:1.8;animation:cardIn .5s both}
+  .reply.show{display:block}
+  footer{text-align:center;color:#b99caf;font-size:.78rem;margin-top:45px;letter-spacing:.06em}
+  footer .tiny-heart{color:#ff8eae}
+  .confetti{position:fixed;top:-20px;z-index:10;pointer-events:none;animation:fall 2.8s ease-in forwards}
+  @keyframes fall{to{transform:translateY(110vh) rotate(720deg);opacity:0}}
+  @keyframes titleIn{from{opacity:0;transform:translateY(25px) rotateX(-10deg)}to{opacity:1;transform:translateY(0) rotateX(0)}}
+  @keyframes fadeDown{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}
+  @keyframes cardIn{from{opacity:0;transform:translateY(24px) rotateX(5deg)}to{opacity:1;transform:translateY(0) rotateX(0)}}
+  @media(max-width:600px){main{padding:20px 15px 50px}.topline{font-size:.62rem;letter-spacing:.19em}.stage{height:220px}.orb{width:150px;height:150px}.ring{width:215px}.ring.two{width:245px}.letter{border-radius:22px}.letter p{font-size:.96rem}.buttons button{width:100%;max-width:300px}}
+  @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="scene" id="scene" aria-hidden="true"></div>
+<main>
+  <div class="topline">A little page, from my heart to yours</div>
+  <header class="hero">
+    <div class="eyebrow"><span></span> made especially for Temilade</div>
+    <h1>I'm sorry,<br><em>Temilade.</em></h1>
+    <p class="subtitle">If I could turn these words into a hug, I’d send you the warmest one right now. ❤️</p>
+  </header>
+
+  <div class="stage" aria-label="A glowing 3D heart">
+    <div class="ring"></div><div class="ring two"></div>
+    <div class="orb"></div><div class="orb-heart">💗</div>
+  </div>
+
+  <section class="letter" id="letter">
+    <div class="letter-top">A note for you</div>
+    <h2>Dear Temilade,</h2>
+    <p>I owe you an honest apology, Temilade. Tonight, I went to see someone I used to date, and I didn’t tell you where I was going. I understand why that would hurt you and make you question my honesty. I should have been upfront with you instead of leaving you to find out or wonder.</p>
+    <p>You matter to me, and I can see that this wasn’t just about where I went—it was also about the trust and consideration you deserve from me. I won’t try to minimise it or make excuses. Even if I didn’t intend to hurt you, I made a choice not to communicate, and I take responsibility for that.</p>
+    <p>I’m sorry I put you in a position where you could feel disrespected or uncertain about where you stand with me. You deserved honesty from the start. I know an apology alone can’t rebuild trust; that has to come from being consistent, transparent, and thoughtful going forward.</p>
+    <p>I’m not asking you to get over it immediately or pretend it didn’t happen. I want to hear how this made you feel without arguing with your feelings. I care about you, Temilade, and I’m genuinely sorry. If you’re willing, I hope I can earn back your trust through my actions, not just these words.</p>
+    <p class="signature">With a sincere heart, and lots of care. ❤️</p>
+  </section>
+
+  <section class="actions">
+    <h2 class="question">Can we find our way back to a smile?</h2>
+    <p>No pressure, no rushing you. Your feelings matter, and I’ll respect whatever time you need.</p>
+    <div class="buttons">
+      <button class="yes" id="forgiveBtn">💗 I’m willing to talk</button>
+      <button class="soft" id="hugBtn">🫂 Sending you a hug</button>
+    </div>
+    <div class="reply" id="reply" role="status" aria-live="polite"></div>
+  </section>
+  <footer>made with <span class="tiny-heart">♥</span> and a little courage · just for Temilade</footer>
+</main>
+<script>
+  const scene = document.getElementById('scene');
+  const symbols = ['♥','♡','✧','❤'];
+  for(let i=0;i<26;i++){
+    const el=document.createElement('span');
+    el.className=i%4===0?'sparkle':'heart';
+    if(el.className==='heart'){
+      el.textContent=symbols[Math.floor(Math.random()*2)];
+      el.style.left=Math.random()*100+'%';
+      el.style.fontSize=(12+Math.random()*22)+'px';
+      el.style.animationDuration=(9+Math.random()*12)+'s';
+      el.style.animationDelay=(-Math.random()*18)+'s';
+      el.style.setProperty('--drift',(Math.random()*150-75)+'px');
+    }else{
+      el.style.left=Math.random()*100+'%';
+      el.style.top=Math.random()*100+'%';
+      el.style.animationDelay=(-Math.random()*3)+'s';
+      el.style.animationDuration=(2+Math.random()*4)+'s';
+    }
+    scene.appendChild(el);
+  }
+
+  const reply=document.getElementById('reply');
+  document.getElementById('forgiveBtn').addEventListener('click', (event)=>{
+    event.preventDefault();
+    reply.textContent='Thank you for giving me the chance to talk. ❤️ I’ll listen without getting defensive, and I’ll do my best to show you the honesty and consideration you deserve.';
+    reply.classList.add('show');
+    celebrate();
+  });
+  document.getElementById('hugBtn').addEventListener('click', (event)=>{
+    event.preventDefault();
+    reply.textContent='Imagine the gentlest, warmest hug—one that says “I’m sorry,” “you matter,” and “I’m here when you’re ready.” 🫂💗';
+    reply.classList.add('show');
+    celebrate();
+  });
+  function celebrate(){
+    const bits=['💗','💕','♡','✨','🌸'];
+    for(let i=0;i<24;i++){
+      const el=document.createElement('span');
+      el.className='confetti';
+      el.textContent=bits[Math.floor(Math.random()*bits.length)];
+      el.style.left=Math.random()*100+'vw';
+      el.style.fontSize=(14+Math.random()*18)+'px';
+      el.style.animationDelay=(Math.random()*.7)+'s';
+      document.body.appendChild(el);
+      el.addEventListener('animationend',function(){el.remove();},{once:true});
+    }
+  }
+  // Gentle pointer tilt gives the letter a subtle 3D feel on desktop.
+  const card=document.getElementById('letter');
+  if(!matchMedia('(prefers-reduced-motion: reduce)').matches){
+    card.addEventListener('pointermove',e=>{
+      if(e.pointerType==='touch') return;
+      const r=card.getBoundingClientRect();
+      const x=(e.clientX-r.left)/r.width-.5;
+      const y=(e.clientY-r.top)/r.height-.5;
+      card.style.transform=`perspective(1000px) rotateY(${x*3}deg) rotateX(${-y*3}deg)`;
+    });
+    card.addEventListener('pointerleave',()=>card.style.transform='perspective(1000px) rotateY(0) rotateX(0)');
+  }
+</script>
+</body>
+</html>
